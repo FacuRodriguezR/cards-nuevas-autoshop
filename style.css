@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'montserrat';
+
+}
+
+.button-comprar button{
+    background-color: #000;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    color: #e5630d;
+    font-weight: 500;
+    transition: all 0.15s ease-in-out;
+}
+
+.button-comprar button:hover{
+    background-color: #e5630d;
+    color: #000;
+    
+}
+
+.container{
+    display: flex;
+    background-color: rgb(211, 211, 211);
+    /* height: 800px; */
+    width: 1400px;
+    align-content: center;
+    padding: 100px 0;
+}
+
+.container .card1:hover{
+ box-shadow: 3px -3px 4px #e5630d;
+}
+
+.container .card1{
+    position: relative;
+    text-align: center;
+    background-color: aliceblue;
+    width: 267px;
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+    transition: 0.3s all ease-in-out;
+    
+}
+.container .card1:hover .neumatico{
+    transform: scale(1.05);
+    /* box-shadow: 1px 10px 20px #707070; */
+    /* border:1px solid #000000; */
+}
+
+
+.container .card1 .neumatico{
+    width: 150px;
+    padding: 30px;
+    position: absolute;
+    top: -10%;
+    left: -45px;
+    transition: all ease-out 0.15s;
+}
+.container .card1 .garantia1{
+    width: 80px;
+    padding: 30px;
+    position: absolute;
+    top: -5%;
+    left: 55%;
+    transition: all ease-out 0.15s;
+}
+.container .card1 .garantia2{
+    width: 80px;
+    padding: 30px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    transition: all ease-out 0.15s;
+}
+.container .card1 .garantia3{
+    width: 80px;
+    padding: 30px;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transition: all ease-out 0.15s;
+}
+.container .card1 .brand{
+    width: 150px;
+    padding: 30px;
+    /* position: absolute; */
+}
+.container .card1 .blank{
+    
+    padding: 100px 0;
+    /* position: absolute; */
+}
+
+.container .card1 .name h4{
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.container .card1 .name p{
+   
+    padding: 5px;
+    font-weight: 500;
+    color: #444444;
+    
+}
+
+.container .card1 .price{
+    padding: 10px;
+}
+
+.container .card1 .price .off{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container .card1 .price .off p{
+   text-decoration-line: line-through;
+   padding: 3px;
+   font-size: 14px;
+   color: #777777;
+   font-weight: 500;
+
+}
+
+.container .card1 .price .off #discount{
+    padding: 3px;
+    background-color: #e5630d;
+    color: white;
+    border-radius: 5px;
+    text-decoration-line: none !important;
+}
+
+
+
+.container .card1 .price h3 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    /* padding: 30px; */
+    padding-bottom: 30px;
+}
+
+
+
+
+.container .card2{
+    /* position: relative; */
+    text-align: center;
+    background-color: aliceblue;
+    width: 267px;
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+    transition: all ease-out 0.15s;
+}
+.container .card2:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 10px 20px #707070;
+    /* border:1px solid #000000; */
+}
+
+.container .card2 .neumatico{
+    width: 150px;
+    padding: 30px;
+    /* position: absolute; */
+    top: -10%;
+    left: -45px;
+   
+}
+.container .card2 .brand{
+    width: 150px;
+    padding: 30px;
+    /* position: absolute; */
+}
+.container .card2 .blank{
+    
+    padding: 100px 0;
+    /* position: absolute; */
+}
+
+.container .card2 .name h4{
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.container .card2 .name p{
+   
+    padding: 5px;
+    font-weight: 500;
+    color: #444444;
+    
+}
+
+.container .card2 .price{
+    padding: 10px;
+}
+
+.container .card2 .price .off{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container .card2 .price .off p{
+   text-decoration-line: line-through;
+   padding: 3px;
+   font-size: 14px;
+   color: #777777;
+   font-weight: 500;
+
+}
+
+.container .card2 .price .off #discount{
+    padding: 3px;
+    background-color: #e5630d;
+    color: white;
+    border-radius: 5px;
+    text-decoration-line: none !important;
+}
+
+
+
+.container .card2 .price h3 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+
+
+.container .card3{
+    /* position: relative; */
+    text-align: center;
+    background-color: aliceblue;
+    width: 267px;
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+   transition: all ease-out 0.15s;
+}
+.container .card3:hover{
+    /* transform: scale(1.05); */
+    /* box-shadow: 1px 10px 20px #707070; */
+    border:1px solid #000000;
+}
+
+.container .card3 .neumatico{
+    width: 150px;
+    padding: 30px;
+    /* position: absolute; */
+    top: -10%;
+    left: -45px;
+
+}
+.container .card3 .brand{
+    width: 150px;
+    padding: 30px;
+    /* position: absolute; */
+}
+.container .card3 .blank{
+    
+    padding: 100px 0;
+    /* position: absolute; */
+}
+
+.container .card3 .name h4{
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.container .card3 .name p{
+   
+    padding: 5px;
+    font-weight: 500;
+    color: #444444;
+    
+}
+
+.container .card3 .price{
+    padding: 10px;
+}
+
+.container .card3 .price .off{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container .card3 .price .off p{
+   text-decoration-line: line-through;
+   padding: 3px;
+   font-size: 14px;
+   color: #777777;
+   font-weight: 500;
+
+}
+
+.container .card3 .price .off #discount{
+    padding: 3px;
+    background-color: #e5630d;
+    color: white;
+    border-radius: 5px;
+    text-decoration-line: none !important;
+}
+
+
+
+.container .card3 .price h3 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px;
+}
+
